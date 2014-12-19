@@ -1,0 +1,54 @@
+body {
+    /*font-family: "AvenirNextLTW02-Regular", sans-serif;*/
+    /*font-size: 16px;*/
+}
+
+#page {
+	margin-top: 80px;
+}
+
+.red-bg {
+    color: white;
+    background-color: #fa5c4f;
+}
+.green-bg {
+    color: white;
+    background-color: #4ccc99;
+}
+.blue-bg {
+    color: white;
+    background-color: #99ccff;
+}
+
+.grey-bg {
+    color: white;
+    background-color: #404040;
+}
+.cont-header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cont-header li {
+    display: inline;
+}
+
+.nav-list-item {
+    /*background-color: lightgrey;*/
+    cursor: pointer;
+    color: #0088cc;
+    /*font-weight: bold;*/
+}
+.nav-list-item:hover {
+    background-color: #0088cc;
+    color: #ffffff;
+}
+.active {
+    background-color: #0088cc;
+    color: #ffffff;
+}
+.test-item {
+    background-color: #d58512;
+    border-bottom: 1px solid black;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FamousKO</title>
+      <!-- build:css -->
+      <link href="bower_modules/components-bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/styles.css" rel="stylesheet">
+      <link href="bower_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+      <!-- endbuild -->
+
+      <!-- shims for backwards compatibility -->
+      <script type="text/javascript" src="http://code.famo.us/lib/functionPrototypeBind.js"></script>
+      <script type="text/javascript" src="http://code.famo.us/lib/classList.js"></script>
+      <script type="text/javascript" src="http://code.famo.us/lib/requestAnimationFrame.js"></script>
+
+      <!-- build:js -->
+      <script src="app/require.config.js"></script>
+      <script data-main="app/startup" src="bower_modules/requirejs/require.js"></script>
+      <!-- endbuild -->
+
+      <!-- famous -->
+      <link rel="stylesheet" type="text/css" href="bower_modules/famous/src/core/famous.css" />
+      <!--<script type="text/javascript" src="http://code.famo.us/famous/0.2.0-surfacefix/famous.min.js"></script>-->
+  </head>
+  <body data-bind="component: { name: 'master-page' }">
+    <!--<nav-bar params="route: route"></nav-bar>-->
+    <!--<div id="page-container" data-bind="component: { name: route().page, params: route }"></div>-->
+  </body>
+</html>
