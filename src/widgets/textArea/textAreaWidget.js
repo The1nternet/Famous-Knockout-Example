@@ -19,27 +19,6 @@ define([
     function _createLayout(){
         var self = this;
 
-        /*
-        var bgMod = new StateModifier({
-            size: [undefined, undefined]
-        });
-        self.bgNode = self.add(bgMod);
-        var bg = new Surface({
-            size: [undefined, undefined],
-            properties: {
-                border: '1px solid black'
-            }
-        });
-        bg.pipe(self._eventOutput);
-        self.bgNode.add(bg);
-        */
-
-        /*
-        var selectMod = new StateModifier({
-            size: [undefined, undefined]
-        });
-        self.selectNode = self.add(selectMod);
-        */
         self.scrollContainer = new ScrollContainer();
         self.scrollContainer.sequenceFrom(self.scrollItems);
         self.scrollContainer.pipe(self._eventOutput);
